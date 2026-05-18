@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ContrailHub: An Open-Access Platform"
+---
+
 # ContrailHub: An Open-Access Platform for Global Contrail Detection and Climate Impact
 
 <p align="center">
@@ -44,7 +49,7 @@ Our repository hosts pipeline codes for state-of-the-art pixel-level contrail de
 
 ```bash
 # Quick Start: Train our benchmark model on your local cluster
-git clone [https://github.com/ContrailHub/contrail-models.git](https://github.com/ContrailHub/contrail-models.git)
+git clone [https://github.com/ContrailLab/ContrailLab.git](https://github.com/ContrailLab/ContrailLab.git)
 cd contrail-models
 pip install -r requirements.txt
 python train.py --config configs/unet_aspp_modis.yaml
